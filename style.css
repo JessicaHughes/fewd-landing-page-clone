@@ -13,7 +13,7 @@ html {
     height: 70px;
     margin: 0 auto;
     padding: 0px 15px;
-    margin-top: 25px
+    margin-top: 25px;
 }
 .top-navigation .links {
     float: right;
@@ -37,4 +37,49 @@ html {
 .top-navigation .links li:hover {
     cursor: pointer;
     color: #333333;
+}
+.introduction {
+    background-image: url(images/first-background.jpg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 45.938rem;
+    overflow: auto;
+}
+.content {
+	width: 970px;
+	margin: 0 auto;
+}
+h1{color: white;
+    margin-top: 17.5rem;
+    font-size: 3.125rem;
+    text-align: center;
+    font-weight: 300;
+}
+h3 {color: white;
+	margin-top: 1.25rem;
+    font-size: 1.562rem;
+    text-align: center;
+    font-weight: 300;
+}
+.introduction .buttons {
+    color: white;
+    text-align: center;
+    margin-top: 1.563rem;
+    background-color: none;
+    font-size;
+    display: block;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+.button {
+    width: 9.688rem;
+    background-color: #f15a29;
+    border-color: #f15a29;
+    text-shadow: none;
+    border-style: none;
+    border-radius: 4px;
+    padding: 1rem 1.5rem;
+    color: white;
+    font-size: 1.125rem;
 }
